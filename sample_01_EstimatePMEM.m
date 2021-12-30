@@ -5,8 +5,12 @@
 binarizedData = dlmread('data\\input_data\\concatenated_binarized_time_series.dat');
 [nodeNumber, dataLength] = size(binarizedData)
 
-% estimate h and J
+% estimate h and J by pseudo-likelihood maximization (approximate method).
 [h, J] = pfunc_02_Inferrer_PL(binarizedData);
+
+% if nodeNumber < 15, you can use the exact method
+% [h, J] = pfunc_02_Inferrer_ML(binarizedData);
+
 
 % save
 dlmwrite('data\\PMEM\\h.dat', h', 'delimiter', '\t')
