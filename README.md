@@ -3,7 +3,7 @@ We provide MATLAB codes of key functions to perform the phase diagram analysis o
 which was proposed in Ezaki *et al.* *Communications Biology* **3**: 52 (2020).
 
 # How to use
-Since it is difficult to create a pipeline that performs phase diagram analysis automatically for arbitrary data, we provide the key functions and the codes for sample analyses using them.
+Since it is difficult to create a pipeline that performs phase diagram analysis automatically for arbitrary data, we provide the key functions and the codes for example analyses using them.
 
 - **example_01_EstimatePMEM.m**
 This sample demonstrates how to estimate *h* and *J* in the pairwise maximum entropy model (PMEM)
