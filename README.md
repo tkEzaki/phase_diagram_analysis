@@ -15,5 +15,5 @@ This sample demonstrates how to sample data from an Ising model (which was gener
 - **example_03_EstimateParticipantMuSigma.m** This sample demonstrates how to estimate the \mu and \sigma values for each participant using the phase diagrams (see Fig. 2 in Ezaki et al. (2020)).
 
 # Acknowledgement
-We acknowledge Michio Inoue for his valuable suggestions on procedures used in **ample_03_EstimateParticipantMuSigma.m**. 
+We acknowledge Michio Inoue for his valuable suggestions on procedures used in **example_03_EstimateParticipantMuSigma.m**. 
 We also thank Douglas M. Schwarz for providing an open source function ("intersection.m", Copyright (c) 2017, Douglas M. Schwarz) used and redistributed in this repository in accordance with its LICENCE TERMS.
