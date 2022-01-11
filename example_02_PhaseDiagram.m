@@ -1,5 +1,5 @@
 % 2021/12/30 by T. Ezaki 
-% Sample code for computing the phase diagram.
+% Example code for computing the phase diagram.
 % Parallelization may be needed in practice (with sufficiently large tMax).
 
 % read h and J estimated for the input data
