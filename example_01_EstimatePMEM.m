@@ -1,5 +1,5 @@
 % 2021/12/30 by T. Ezaki 
-% Sample code for estimating PMEM
+% Example code for estimating PMEM
 
 % input: binarized data
 binarizedData = dlmread('data\\input_data\\concatenated_binarized_time_series.dat');
