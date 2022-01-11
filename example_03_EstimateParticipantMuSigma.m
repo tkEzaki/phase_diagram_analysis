@@ -1,5 +1,5 @@
 % 2021/12/30 by T. Ezaki 
-% Sample code for estimating the location of each participant in the 
+% Example code for estimating the location of each participant in the 
 % phase diagram. 
 
 % read single participant data
