@@ -1,8 +1,9 @@
-# What is this repository?
+# MATLAB Code for Phase Diagram Analysis
+## What is this repository?
 We provide MATLAB codes of key functions to perform the phase diagram analysis on muli-variate time-series data,
 which was proposed in Ezaki *et al.* *Communications Biology* **3**: 52 (2020).
 
-# How to use
+## How to use
 Since it is difficult to create a pipeline that performs phase diagram analysis automatically for arbitrary data, we provide the key functions and the codes for example analyses using them.
 
 - **example_01_EstimatePMEM.m**
@@ -16,6 +17,6 @@ This example demonstrates how to sample data from an Ising model (which was gene
 
 You can open and test the code on MATLAB Online (MathWorks account required): [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=minoue-xx/phase_diagram_analysis)
 
-# Acknowledgement
+## Acknowledgement
 We acknowledge Michio Inoue for his valuable suggestions on procedures used in **example_03_EstimateParticipantMuSigma.m**. 
 We also thank Douglas M. Schwarz for providing an open source function ("intersection.m", Copyright (c) 2017, Douglas M. Schwarz) used and redistributed in this repository in accordance with its LICENCE TERMS.
